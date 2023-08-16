@@ -1,0 +1,327 @@
+/* * {
+    margin: 0;
+    height: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 3px;
+}
+
+.container .box {
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(200, 198, 198);
+}
+
+.active {
+    animation: colors 1s infinite ;
+}
+
+@keyframes colors {
+    0% {
+        background-color: rgb(0, 255, 255);
+    }
+    50% {
+        background-color: green;
+    }
+    75% {
+        background-color: skyblue;
+    }
+    100% {
+        background-color: pink;
+    }
+} */
+
+.container {
+    width: 1020px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 5px 0;
+}
+
+.header_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 42px;
+    width: 100%;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.credit {
+    background-color: #c4c4c4;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.credit p {
+    padding-top: 15px;
+    text-align: center;
+}
+
+.deals {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.deals_flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #c4c4c4;
+    padding-left: 50px;
+    padding-right: 80px;
+}
+
+.logo1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 13px;
+    font-size: 14px;
+}
+
+.logo2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 13px;
+    font-size: 14px;
+}
+
+.main {
+    width: 100%;
+}
+
+.left_right {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.right {
+    padding-top: 100px;
+}
+
+
+.Buy p{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.Buy h1 {
+    font-size: 50px;
+}
+
+.picture {
+    padding-top: 40px;
+}
+
+.picture img {
+    border-radius: 5%;
+    width: 900px;
+    text-decoration: 3s;
+}
+
+.Buy {
+    width: 90%;
+    padding: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.Buy {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buy_left {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.buy_left button {
+    padding: 15px;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+}
+
+.left {
+    padding-right: 10%;
+}
+
+.picture{
+    top: 20px;
+    position: sticky;
+}
+
+.span1 {
+    font-weight: 600;
+}
+
+.iphone_btns {
+    padding-top: 12px;
+}
+
+.button_second {
+    padding-top: 20px;
+}
+
+.button_first button {
+    background-color: white;
+    border-color: blue;
+    border-width: 2px;
+    padding: 20px 55px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    gap: 40px;
+}
+
+.button_second button{
+    background-color: white;
+    border-color: blue;
+    border-width: 2px;
+    padding: 20px 55px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    gap: 40px;
+}
+
+.button_third {
+    padding-top: 20px;
+}
+
+.button_third button{
+    border: none;
+    padding: 10px 58px;
+    border-radius: 15px;
+}
+
+.colors {
+    padding-top: 60px;
+}
+
+.colors p1 {
+    font-size: 30px;
+}
+
+.colors p2 {
+    font-size: 23px;
+}
+
+
+
+.colors h2 {
+    padding-top: 40px;
+}
+
+.four_colors {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    padding-top: 15px;
+}
+
+.four_colors button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+}
+
+.deep {
+    background-color: rgb(255, 0, 255);
+}
+
+.gold {
+    background-color: gold;
+}
+
+.silver {
+    background-color: silver;
+}
+
+.black {
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+.space {
+    padding-top: 150px;
+}
+
+.span_space {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.pre_span {
+    font-size: 25px;
+}
+
+.b_first {
+    padding-top: 20px;
+}
+
+.button_three {
+    padding-top: 20px;
+}
+
+.button_three button{
+    background-color: white;
+    border-color: blue;
+    border-width: 2px;
+    padding: 20px 55px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    gap: 40px;
+}
+
+.active {
+    border: 2px solid blue;
+}

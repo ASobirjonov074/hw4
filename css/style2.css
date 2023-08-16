@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.macbook_h1 {
+    padding: 70px 360px;
+}
+
+.macbook_h1 p {
+    text-align: center;
+    font-size: 18px;
+    padding-top: 24px;
+}
+
+.left_right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 76px;
+}
+
+.p1 p{
+    color: #0071E3;
+    font-family: Gilroy;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.p2 {
+    padding-top: 48px;
+}
+
+.p2 p {
+    color: #000;
+font-family: Gilroy;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.buttons_right_left {
+    padding-top: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+}
+
+.right_button button {
+    border-radius: 10px;
+    background: #0071E3;
+    width: 155px;
+    height: 42px;
+    flex-shrink: 0;
+    border: none;
+}
+
+.left_button button {
+    border-radius: 10px;
+    background: #CFE7FF;
+    width: 155px;
+    height: 42px;
+    flex-shrink: 0;
+    border: none;
+}
+
+.storage {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 39px;
+    gap: 7px;
+    padding-bottom: 134px;
+}
+
+.storage button {
+    width: 321px;
+    height: 57px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 2px solid #007FFF;
+    background-color: white;
+    color: #000;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+
+.active {
+    border: 2px solid blue;
+}
